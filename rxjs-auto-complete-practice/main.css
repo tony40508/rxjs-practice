@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.autocomplete {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.input {
+  width: 250px;
+  border: none;
+  border-bottom: 1.5px solid black;
+  padding: 0;
+  line-height: 24px;
+  font-size: 16px;
+  transition-duration: .3s;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom-color: gray;
+}
+
+input[type='search'] {
+  font-size: 30px;
+}
+
+.suggest {
+  position: absolute;
+  width: 250px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.suggest li {
+  cursor: pointer;
+  padding: 5px;
+  transition-duration: .3s;
+}
+
+.suggest li:hover {
+  background-color: #ccc;
+}
+/*# sourceMappingURL=main.css.map */
