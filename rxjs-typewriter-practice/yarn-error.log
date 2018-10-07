@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/weiyu/.nvm/versions/node/v10.11.0/bin/node /Users/weiyu/.yarn/bin/yarn.js add recopose
+
+PATH: 
+  /Users/weiyu/.yarn/bin:/Users/weiyu/.config/yarn/global/node_modules/.bin:/Users/weiyu/.nvm/versions/node/v10.11.0/bin:/Users/weiyu/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/weiyu/.yarn/bin:/Users/weiyu/.config/yarn/global/node_modules/.bin:/Users/weiyu/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/Users/weiyu/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git:/Users/weiyu/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/brew:/Users/weiyu/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku:/Users/weiyu/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/pip:/Users/weiyu/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/lein:/Users/weiyu/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/command-not-found:/Users/weiyu/.antigen/bundles/zsh-users/zsh-syntax-highlighting:/Users/weiyu/.antigen/bundles/zsh-users/zsh-autosuggestions:/Users/weiyu/.fzf/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  10.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/recopose: Not found
+      at Request.params.callback [as _callback] (/Users/weiyu/.yarn/lib/cli.js:65656:18)
+      at Request.self.callback (/Users/weiyu/.yarn/lib/cli.js:134675:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/Users/weiyu/.yarn/lib/cli.js:135658:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/Users/weiyu/.yarn/lib/cli.js:135578:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1092:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
