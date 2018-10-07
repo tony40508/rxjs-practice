@@ -21,8 +21,6 @@ const createTypeWriter = (message, speed) =>
     letter => letter,
   ).scan((acc, curr) => acc + curr);
 
-createTypeWriter.repeat();
-
 const StreamingApp = componentFromStream(props$ =>
   props$
     .switchMap(props => createTypeWriter(props.message, props.speed))
@@ -30,10 +28,14 @@ const StreamingApp = componentFromStream(props$ =>
     .map(App),
 );
 
-ReactDOM.render(
-  <StreamingApp message="React Happy Hacking!" speed={100} />,
-  document.getElementById('root'),
-);
+const root = document.getElementById('root');
+
+setInterval(() => {
+  ReactDOM.render(
+    <StreamingApp message="React Happy Hacking!" speed={100} />,
+    root,
+  );
+}, 3000);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
